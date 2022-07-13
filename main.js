@@ -21,7 +21,8 @@ const a=[
         opt:l=["arr","r","c","t"],
         ans:"arr",
     }
-]
+];
+
 
 
 let i=0;
@@ -57,5 +58,6 @@ function incre(){
 }
 
 incre();
+
 
 console.log(a[i].id.value)
