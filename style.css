@@ -196,3 +196,88 @@ ul{
        padding:25px 125px;  
      }
     }
+
+
+    input[type="radio"]{
+      opacity: 0;
+      width: 0;
+      margin: 0;
+      display:block;
+    }
+
+ #questions-body{
+   background-color: #000;
+   color: #DDDDDD;
+   margin: 6% 6% 0% 6%;
+ }   
+#ui li .o{
+  display: block;
+  background-color: #38444D;
+  color: #DDDDDD;
+  padding:10px 35px 10px 35px;
+  margin:none;
+  border-radius: 10px;
+  border: 1px solid whitesmoke ;
+ font-size:25px;
+ cursor: pointer;
+}
+
+#ui li .o:hover{
+  opacity:0.8
+
+
+}
+#questions-question{
+  padding:5px
+}
+#nextQuestion-btn{
+  background-color: #04AA6D;
+  color: #FFFFFF;
+  padding: 12px 30px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 6px;
+  cursor: pointer;
+}
+#question-noo{
+  padding: 5px 5px 8px 5px;
+}
+#score-page-body{
+  background-color:#000 ;
+  color: #D9EEE1;
+}
+#score-page{
+  margin-top:18% ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+ 
+  
+  
+}
+#backquizz{
+  margin: 40px;
+}
+#back-to-quizes{
+  background-color: #04AA6D;
+  color: #DDDDDD;
+  padding: 16px 18px;
+  border-radius: 10px;
+  font-size: larger;
+  text-decoration: none;
+ 
+}
+#backquizz:hover{
+  opacity: 0.7;
+}
+#score-result{
+  padding: 5px;
+}
+#kk{
+  margin: 15px;
+}
+
+

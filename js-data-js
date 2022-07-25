@@ -1,0 +1,95 @@
+const jsQ=[
+    {   
+        id:"gsjsjsks",
+        question:"Inside which HTML element do we put the JavaScript?",
+        opt:["&ltscripting&gt","&ltjavascript&gt","&ltjs&gt","&ltscript&gt"],
+        ans:"opt4", 
+    },
+   
+    {  
+        id:"skjiewww",
+        question:'What is the correct syntax for referring to an external script called "xxx.js"?',
+        opt:['&ltscript src="xxx.js"&gt','&ltscript name="xxx.js"&gt','&ltscript href="xxx.js"&gt','&ltscript src="xxx.jss"&gt'],
+        ans:"opt1",
+    },
+    {  
+        id:"skjiewww",
+        question:'How do you write "Hello World" in an alert box?',
+        opt:['msg("HELLO WORLD")','alert("HELLO WORLD")','msgBox("HELLO WORLD")','alertBox("HELLO WORLD")'],
+        ans:"opt2",
+    },
+    {  
+        id:"skjiewww",
+        question:"How do you create a function in JavaScript?",
+        opt:["function:myFunction()","function myFunction()","function = myFunction()"," var function myFunction()"],
+        ans:"opt3",
+    },
+    {  
+        id:"skjiewww",
+        question:'How do you call a function named "myFunction"?',
+        opt:["call function myFunction()","call myFunction()","myFunction","myFunction()"],
+        ans:"opt4",
+    },
+    {  
+        id:"skjiewww",
+        question:"How to write an IF statement in JavaScript?",
+        opt:["if (i==5)","if i = 5 then","if i == 5","if i = 5"],
+        ans:"opt1",
+    },
+    {  
+        id:"skjiewww",
+        question:'How to write an IF statement for executing some code if "i" is NOT equal to 5?',
+        opt:["if (i <> 5)","if (i != 5)","if i =! 5 then","if i <> 5"],
+        ans:"opt2",
+    },
+    {  
+        id:"skjiewww",
+        question:"How does a FOR loop start?",
+        opt:["for (i = 0; i <= 5; i++)","for(i = 0; i <= 5)","for i = 1 to 5","for (i <= 5;i++ )"],
+        ans:"opt1",
+    },
+    {  
+        id:"skjiewww",
+        question:"What is the correct way to write a JavaScript array?",
+        opt:['var color = "red", "green","blue"','var color = (1:"red", 2:"green", 3:"blue")','var color = [red", "green","blue"]',
+        'var colors = 1 =("red"), 2 =("green"), 3 =("blue")'],
+        ans:"opt3",
+    },
+    {  
+        id:"skjiewww",
+        question:"How do you round the number 7.25, to the nearest integer?",
+        opt:["rnd(7.25)","math.rnd(7.25)","math.round(7.25)","round(7.25)"],
+        ans:"opt3",
+    },
+    {  
+        id:"skjiewww",
+        question:"How do you find the number with the highest value of x and y?",
+        opt:["Math.max(x,y)","ceil(x,y)","Math.ceil(x,y)","top(x,y)"],
+        ans:"opt1",
+    },
+    {  
+        id:"skjiewww",
+        question:"Which event occurs when the user clicks on an HTML element?",
+        opt:["OnMouseClick",
+        "OnClick","OnChange","OnMouseOver"],
+        ans:"opt2",
+    },
+    {  
+        id:"skjiewww",
+        question:"How do you declare a JavaScript variable?",
+        opt:["v carName;","var carName;","variable carName;","carName;"],
+        ans:"opt2",
+    },
+    {  
+        id:"skjiewww",
+        question:"Which operator is used to assign a value to a variable?",
+        opt:["=","-","*",">"],
+        ans:"opt1",
+    },
+    {  
+        id:"skjiewww",
+        question:'How do you write "Hello World" in an alert box?',
+        opt:['msg("HELLO WORLD")','alert("HELLO WORLD")','msgBox("HELLO WORLD")','alertBox("HELLO WORLD")'],
+        ans:"opt2",
+    }
+];

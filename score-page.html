@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body id="score-page-body">
+    
+    <div  id="score-page" >
+       <h1 id="score-result">result:</h1>
+      <div>
+        <h1 id="kk"></h1>
+    </div>
+        <h2 id="score-desc"></h2>
+       
+       <div id="backquizz" >
+        <a id="back-to-quizes" href="landing.html">Back to Quizzes</a> 
+       </div>
+
+       
+    </div>
+   
+</body>
+<script>
+    let kk =document.getElementById('kk');
+    let scoreDesc =document.getElementById('score-desc');
+ const total=new URLSearchParams(window.location.search);
+ var score;
+ if(total.get('score')!== undefined){
+   score =total.get('score');
+ }
+ kk.innerHTML=`<h3>${total.get('score')} of 15 </h3>`;
+ if(score <= 9){
+ scoreDesc.innerHTML="You must study much harder! ";
+ }
+ else if(score >= 10 && score < 15){
+    scoreDesc.innerHTML="Almost! Study a little more and take the test again!";
+ }
+ else{
+    scoreDesc.innerHTML="YAY! You Done a Great Job" ;
+ }
+
+</script>
+
+</html>
